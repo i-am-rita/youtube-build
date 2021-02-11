@@ -1,11 +1,11 @@
 import React from 'react';
-import { Headline } from './style';
+import { Container, Headline } from './style';
 
 const Nav = () => {
   return (
-    <div>
+    <Container>
       <Headline>I am the nav</Headline>
-    </div>
+    </Container>
   );
 };
 

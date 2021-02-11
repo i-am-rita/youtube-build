@@ -1,12 +1,15 @@
 import React from 'react';
 import Wrapper from '../../components/wrapper';
 import { Container, Headline } from './style';
+import { ContentArea } from '../../components/wrapper/style';
 
 const Home = () => {
   return (
     <Container>
       <Wrapper>
-        <Headline>I am the Home</Headline>
+        <ContentArea>
+          <Headline>I am the Home</Headline>
+        </ContentArea>
       </Wrapper>
     </Container>
   );

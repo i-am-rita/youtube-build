@@ -1,11 +1,11 @@
 import React from 'react';
-import { Headline } from './style';
+import { Container, Headline } from './style';
 
 const MainSideBar = () => {
   return (
-    <div>
+    <Container>
       <Headline>Main SideBar</Headline>
-    </div>
+    </Container>
   );
 };
 
