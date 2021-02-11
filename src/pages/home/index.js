@@ -1,11 +1,13 @@
 import React from 'react';
 import Wrapper from '../../components/wrapper';
-import { Container } from './style';
+import { Container, Headline } from './style';
 
 const Home = () => {
   return (
     <Container>
-      <Wrapper></Wrapper>
+      <Wrapper>
+        <Headline>I am the Home</Headline>
+      </Wrapper>
     </Container>
   );
 };

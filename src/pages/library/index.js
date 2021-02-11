@@ -1,11 +1,13 @@
 import React from 'react';
 import Wrapper from '../../components/wrapper';
-import { Container } from './style';
+import { Container, Headline } from './style';
 
 const Library = () => {
   return (
     <Container>
-      <Wrapper></Wrapper>
+      <Wrapper>
+        <Headline>I am the Library</Headline>
+      </Wrapper>
     </Container>
   );
 };
